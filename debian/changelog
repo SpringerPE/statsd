@@ -1,3 +1,11 @@
+statsd (0.8.0-2) unstable; urgency=low
+
+  * Move away idleStats related configuration variables from the flushMetrics method
+  * Write new tests for the gaugesMaxTTL option
+  * Write the logic for handling the deletion in the presence of gaugesMaxTTL
+
+ -- Claudio Benfatto <claudio.benfatto@gmail.com>  Thu, 25 Apr 2017 01:00:00 +0000
+
 statsd (0.8.0-1) unstable; urgency=low
 
   * Modularized injest servers, with support for loading multiple servers
